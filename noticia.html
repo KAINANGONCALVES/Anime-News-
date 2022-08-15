@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--ICONE-->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+        <link rel="manifest" href="img/icon/site.webmanifest">
+        
+        <title>Anime News | Notícias</title>
+
+        
+        <!--Google Fonts - Lato-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!--CSS Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <!--Bootstrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+        <!--CSS do Projeto-->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles2.css">
+
+        <!--Javascript Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+            <div class="container py-1">
+                <a href="index.html" class="navbar-brand primary-color">
+                    <span>ANIME NEWS</span>
+                </a>
+                <button 
+                class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbar-items" 
+                aria-controls="navbar-items" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                
+                <i class="bi bi-list"></i>
+                
+                </button>
+                <div class="collapse navbar-collapse primary-color" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link primary-color">
+                                <i class="bi bi-house"> Home</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="noticia.html" class="nav-link active primary-color"aria-current="page">
+                                <i class="bi bi-newspaper"> Notícias</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="fan-news.html" class="nav-link primary-color">
+                                <i class="bi bi-chat-dots"> Fan News</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sobre.html" class="nav-link primary-color">
+                                <i class="bi bi-info-circle"> Sobre</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--SLIDER-->
+        <div class="container" id="slider-container">
+        </div>
+        <!--CONTEÚDO-->
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5" id="conteudo">
+                <div class="col-lg-12 col-md-8 mx-auto">
+                    <h1>
+                        VEJA ABAIXO AS NOTÍCIAS QUE ESTÃO ROLANDO NO MUNDO DOS ANIMES!
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <!--NOTÍCIAS-->
+        <div class="album py-5 bg-light">
+            <div class="col-12 col-md-10 offset-md-1" id="noticia">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/animes-2022.jpg" alt="Animes 2022">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Guia de Novos Animes de Abril 2022!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Um guia  com os novos animes da temporada de Abril (Primavera/Spring) 2022 comentados. Mais informações, novos animes e número de...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/kakegurui-twin.png" alt="Anime Kakegurui-twin">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Kakegurui Twins – Spin-off ganha trailer completo com ED, staff e data de estreia!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    A Netflix liberou um trailer para a adaptação em anime do spin-off Kakegurui Twins. O vídeo apresenta detalhes da história...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/demon-slayer.png" alt="Anime Demon Slayer">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Fãs Japoneses Classificam os 100 Melhores Mangás de Todos os Tempos; One Piece vs Demon Slayer!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Perguntar a alguém “Qual é o melhor mangá ou anime de todos os tempos” é provavelmente uma das perguntas mais polêmicas entre a comunidade otaku. Porque não só a questão é de preferência...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/shaman-king.png" alt="Anime Shaman King">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Shaman King: tudo sobre o remake do anime de ação!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Estreou na Netflix a quarta e última parte do remake de Shaman King. O anime conta com os 52 episódios exibidos no Japão, com opção de áudio original, além da dublagem para o português. A trama acompanha um garoto que...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/dragon-ball.png" alt="Anime Dragon Ball">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Dragon Ball Z: veja o guia completo de todas as sagas do anime!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Dragon Ball Z é uma das séries de anime mais reconhecidas, com um efeito cultural mundial bem mais de 30 anos depois de ter começado a ser exibida. E aqui está o guia completo de todas as sagas do anime...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/solo-leveling.png" alt="Anime Solo Leveling">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Solo Leveling - Surgem mais pistas sobre um possível anime!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Nas redes, se descobriu o registro de um domínio da Internet, que daria mais indicações sobre uma possível adaptação em anime das novels escritas por Chugong, Solo Leveling. Este projeto ainda não foi anunciado oficialmente, no entanto, vazamentos de...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <!--RODAPÉ - FOOTER-->
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!--FOOTER TOP-->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col">
+                                <h2>ANIME NEWS</h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href="https://discord.com/invite/CH8cg8zfHh"><i class="bi bi-discord"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER DETAILS-->
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+                            <div class="col-12 col-md-4" id="news-container">
+                                <h4>Receba notícias em seu e-mail!</h4>
+                                <p class="secondary-color">
+                                    Fique por dentro das notícias sobre animes diretamente no seu e-mail.
+                                </p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input 
+                                            type="email" 
+                                            class="form-control" 
+                                            placeholder="Digite seu E-Mail"
+                                        />
+                                    </div>
+                                    <button class="btn btn-dark" type="submit">
+                                        Enviar
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Entre em contato conosco:</h4>
+                                <h5 class="secondary-color">
+                                    anime.news.oficial.br@gmail.com
+                                </h5>
+                            </div>
+                            <div class="col-12 col-md-4" id="links-container">
+                                <div class="row">
+                                    <h4>Você pode estar procurando por:</h4>
+                                    <div class="col-12">
+                                        <ul class="list-unstyled">
+                                            <li><a href="noticia.html" class="secondary-color">Notícias</a></li>
+                                            <li><a href="sobre.html" class="secondary-color">Desenvolvedores do site</a></li>
+                                            <li><a href="index.html" class="secondary-color">Home Page</a></li>
+                                            <li><a href="fan-news.html" class="secondary-color">Se tornar AnimeFã</a></li>
+                                            <li><a href="sobre.html" class="secondary-color">Informações</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER BOTTOM-->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-4">
+                                <p class="secondary-color">
+                                    AN - ANIME NEWS &copy; 2022
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <p class="secondary-color">
+                                    <i class="bi bi-mortarboard"></i>
+                                    TCC - ETEC (Cândido Mota)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

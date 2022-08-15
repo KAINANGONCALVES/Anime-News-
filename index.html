@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--ICONE-->
+        <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+        <link rel="manifest" href="img/icon/site.webmanifest">
+
+        <title>Anime News | Home</title>
+
+        
+        <!--Google Fonts - Lato-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+        <!--CSS Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+        <!--Bootstrap Icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+        <!--CSS do Projeto-->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles2.css">
+
+        <!--Javascript Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+            <div class="container py-1">
+                <a href="index.html" class="navbar-brand primary-color">
+                    <span>ANIME NEWS</span>
+                </a>
+                <button 
+                class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbar-items" 
+                aria-controls="navbar-items" 
+                aria-expanded="false" 
+                aria-label="Toggle navigation">
+                
+                <i class="bi bi-list"></i>
+                
+                </button>
+                <div class="collapse navbar-collapse primary-color" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active primary-color" aria-current="page">
+                                <i class="bi bi-house"> Home</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="noticia.html" class="nav-link primary-color">
+                                <i class="bi bi-newspaper"> Notícias</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="fan-news.html" class="nav-link primary-color">
+                                <i class="bi bi-chat-dots"> Fan News</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sobre.html" class="nav-link primary-color">
+                                <i class="bi bi-info-circle"> Sobre</i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--SLIDER-->
+        <div class="container" id="slider-container">
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button 
+                        type="button" 
+                        class="active" 
+                        data-bs-target="#slider"
+                        data-bs-slide-to="0"
+                        aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
+                    <button 
+                        type="button" 
+                        data-bs-target="#slider"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+                    <button 
+                        type="button" 
+                        data-bs-target="#slider"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>                      
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/carousel/banner1.png" alt="Bem Vindo" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <!--Adicionar algo-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/banner2.png" alt="Discord" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <!--Adicionar algo-->
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel/banner3.png" alt="Suporte" class="d-block w-100">
+                        <div class="carousel-caption">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfxX9r-1TgEjHkSWwg7l1ZwMxJoR4nFqeqK2IxSY53ZVowKg/viewform?usp=sf_link" class="btn btn-lg btn-primary">
+                                SUPORTE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button 
+                    class="carousel-control-prev" 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide="prev">
+                    <i class="bi bi-chevron-compact-left"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button 
+                    class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#slider" 
+                    data-bs-slide="next">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+        </div>
+        <!--CONTEÚDO-->
+        <section class="text-center container">
+            <div class="row py-lg-5" id="conteudo">
+                <div class="col-lg-12 col-md-8 mx-auto">
+                    <h1>
+                        VEJA ABAIXO AS PRINCIPAIS NOTÍCIAS SOBRE O MUNDO DOS ANIMES QUE ESTÁ ROLANDO NO MOMENTO!
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <!--NOTÍCIAS-->
+        <div class="album py-5 bg-light">
+            <div class="col-12 col-md-10 offset-md-1" id="noticia">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/one-piece.png" alt="One Piece Netflix Logo">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    East Blue se tornando realidade!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    Série live-action de One Piece da Netflix ganha vídeo de bastidores e novas adições ao elenco. Novidades da adaptação do mangá de Eiichiro Oda foram reveladas na transmissão da...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card start">
+                            <img src="img/noticias/spy-x-family.png" alt="Anime Spy x Family">
+                            <div class="card-body">
+                                <h5 class="card-title primary-color">
+                                    Anime de SPY x FAMILY foi a série mais assistida nos serviços de streaming do Japão em maio de 2022!
+                                </h5>
+                                <p class="card-text secondary-color">
+                                    A GEM conseguiu essas informações entrevistando cerca de 7 mil japoneses (com idades entre 16 e 69 anos) por semana, perguntando o que eles estavam assistindo...
+                                </p>
+                            </div>
+                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <!--RODAPÉ - FOOTER-->
+        <footer class="container-fluid bg-dark-color" id="footer">
+            <div class="container">
+                <div class="row">
+                    <!--FOOTER TOP-->
+                    <div class="col-12" id="footer-top">
+                        <div class="row justify-content-between">
+                            <div class="col">
+                                <h2>ANIME NEWS</h2>
+                            </div>
+                            <div class="col-4" id="social-icons">
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href="https://discord.com/invite/CH8cg8zfHh"><i class="bi bi-discord"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER DETAILS-->
+                    <div class="col-12" id="footer-details">
+                        <div class="row">
+                            <div class="col-12 col-md-4" id="news-container">
+                                <h4>Receba notícias em seu e-mail!</h4>
+                                <p class="secondary-color">
+                                    Fique por dentro das notícias sobre animes diretamente no seu e-mail.
+                                </p>
+                                <form>
+                                    <div class="mb-3">
+                                        <input 
+                                            type="email" 
+                                            class="form-control" 
+                                            placeholder="Digite seu E-Mail"
+                                        />
+                                    </div>
+                                    <button class="btn btn-dark" type="submit">
+                                        Enviar
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="col-12 col-md-4" id="contact-container">
+                                <h4>Entre em contato conosco:</h4>
+                                <h5 class="secondary-color">
+                                    anime.news.oficial.br@gmail.com
+                                </h5>
+                            </div>
+                            <div class="col-12 col-md-4" id="links-container">
+                                <div class="row">
+                                    <h4>Você pode estar procurando por:</h4>
+                                    <div class="col-12">
+                                        <ul class="list-unstyled">
+                                            <li><a href="noticia.html" class="secondary-color">Notícias</a></li>
+                                            <li><a href="sobre.html" class="secondary-color">Desenvolvedores do site</a></li>
+                                            <li><a href="index.html" class="secondary-color">Home Page</a></li>
+                                            <li><a href="fan-news.html" class="secondary-color">Se tornar AnimeFã</a></li>
+                                            <li><a href="sobre.html" class="secondary-color">Informações</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FOOTER BOTTOM-->
+                    <div class="col-12" id="footer-bottom">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-4">
+                                <p class="secondary-color">
+                                    AN - ANIME NEWS &copy; 2022
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <p class="secondary-color">
+                                    <i class="bi bi-mortarboard"></i>
+                                    TCC - ETEC (Cândido Mota)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
